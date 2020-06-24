@@ -1,0 +1,26 @@
+{
+  "name": "firebase-web-app",
+  "version": "0.1.0",
+  "description": "Firebase web app test",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rob Ranf",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.0.2",
+    "eslint": "^7.3.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@firebase/util": "^0.2.49",
+    "firebase": "^7.15.4",
+    "firebaseui": "^4.5.1",
+    "google-auth-library": "^6.0.2"
+  }
+}
