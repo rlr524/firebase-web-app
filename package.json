@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@firebase/util": "^0.2.49",
+    "dotenv": "^8.2.0",
     "firebase": "^7.15.4",
     "firebaseui": "^4.5.1",
     "google-auth-library": "^6.0.2"

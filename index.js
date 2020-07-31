@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 // document elements
 const startRsvpButton = document.getElementById("startRsvp");
 const guestbookContainer = document.getElementById("guestbook-container");
@@ -11,7 +13,7 @@ var rsvpListener = null;
 var guestbookListener = null;
 // add Firebase project config object
 var firebaseConfig = {
-  apiKey: "AIzaSyB0mejCj257sHQTH7uMOpBXQGNMsLKGZEc",
+  apiKey: process.env.GOOGLE_API_KEY,
   authDomain: "emiya-firebase-web-app-meetups.firebaseapp.com",
   databaseURL: "https://emiya-firebase-web-app-meetups.firebaseio.com",
   projectId: "emiya-firebase-web-app-meetups",
